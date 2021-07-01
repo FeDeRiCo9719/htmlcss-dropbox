@@ -14,43 +14,47 @@
 
 /*---------------------- HEADER ----------------------*/
 header {
-    background-color: rgb(0, 102, 109);
     width: 100%;
     position: fixed;
+    background-color: white;
 }
 .container{
-    width: 96%;
-    background-color: blueviolet;
+    width: 98%;
     margin: auto;
 }
 .right-box, .left-box{
-    /* height: 100px; */
     width: 50%;
-    border: 1px solid red;
-    background-color: rgb(70, 176, 247);
     float: left;
 }
 /*---------------------- logo e nav ----------------------*/
-.right-box img {
+.left-box img {
     margin-right: 40px;
 }
-.right-box img, nav, li {
+.container img, nav, li {
     display: inline-block;
     vertical-align: middle;
     padding: 14px 0px;
 }
-.right-box a {
+.right-box a, .left-box a {
     text-decoration: none;
     color: black;
     font-size: 18px;
     padding-right: 40px;
     font-family: Arial;
 }
-
+.right-box {
+    text-align: right;
+}
+.right-box button {
+    background-color: rgb(0, 89, 255);
+    border: none;
+    color: white;
+    padding: 8px 20px;
+}
 
 /*---------------------- MAIN ----------------------*/
 main {
-    background-color: rgb(115, 180, 169);
+    background-color: rgb(154, 185, 211);
     height: 2000px;
 }
 
