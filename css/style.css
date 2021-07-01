@@ -24,12 +24,29 @@ header {
     margin: auto;
 }
 .right-box, .left-box{
-    height: 100px;
+    /* height: 100px; */
     width: 50%;
     border: 1px solid red;
     background-color: rgb(70, 176, 247);
     float: left;
 }
+/*---------------------- logo e nav ----------------------*/
+.right-box img {
+    margin-right: 40px;
+}
+.right-box img, nav, li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 14px 0px;
+}
+.right-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-right: 40px;
+    font-family: Arial;
+}
+
 
 /*---------------------- MAIN ----------------------*/
 main {
