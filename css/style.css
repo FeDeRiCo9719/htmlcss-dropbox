@@ -53,8 +53,28 @@ header {
 }
 
 /*---------------------- MAIN ----------------------*/
-main {
+.A {
     background-color: rgb(154, 185, 211);
-    height: 2000px;
+    height: 1000px;
+}
+/*---------------------- Section - A ----------------------*/
+.box-A {
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    height: 1000px;
+}
+.box-title {
+    border: 1px solid rgb(255, 136, 0);
+    width: 100%;
+    margin: 200px 0px 50px 0px;
+}
+.box-title h1 {
+    font-size: 90px;
+    font-family: Arial;
+}
+.box-text_img{
+    border: 1px solid rgb(229, 255, 0);
+    height: 200px;
 }
 
