@@ -60,14 +60,14 @@ header {
 /*---------------------- MAIN ----------------------*/
 .container-A {
     background-color: rgb(154, 185, 211);
-    height: 900px;
+    /* height: 900px; */
 }
-/*---------------------- Section-A ----------------------*/
+/*---------------------- Container-A ----------------------*/
 .box-A {
     width: 80%;
     border: 1px solid red;
     margin: auto;
-    height: 1000px;
+    /* height: 1000px; */
 }
 .box-title {
     border: 1px solid rgb(255, 136, 0);
@@ -79,11 +79,11 @@ header {
 }
 .box-text{
     border: 1px solid rgb(229, 255, 0);
-    height: 600px;
+    /* height: 600px; */
 }
 .left-A, .right-A {
     float: left;
-    height: 600px;
+    /* height: 600px; */
     border: 1px solid rgb(0, 255, 55);
 }
 .left-A {
@@ -96,6 +96,9 @@ header {
 }
 .right-A img {
     max-width: 100%;
+    position: relative;
+    bottom: -100px;
+    /* top: 0; */
 }
 .left-A p {
     font-size: 20px;
@@ -108,5 +111,4 @@ header {
 }
 .arrow {
     font-size: 70px;
-    margin-top: 30px;
 }
