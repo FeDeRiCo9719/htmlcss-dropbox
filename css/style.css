@@ -11,12 +11,16 @@
 	display: table;
 	clear: both;
 }
+body {
+    font-family: Arial;
+}
 
 /*---------------------- HEADER ----------------------*/
 header {
     width: 100%;
     position: fixed;
     background-color: white;
+    z-index: 10;
 }
 .container{
     width: 98%;
@@ -45,15 +49,16 @@ header {
 .right-box {
     text-align: right;
 }
-.right-box button {
+.blue-btn {
     background-color: rgb(0, 89, 255);
     border: none;
     color: white;
-    padding: 8px 20px;
+    padding: 10px 26px;
+    font-size: 14px;
 }
 
 /*---------------------- MAIN ----------------------*/
-.A {
+.container-A {
     background-color: rgb(154, 185, 211);
     height: 900px;
 }
@@ -71,19 +76,37 @@ header {
 }
 .box-title h1 {
     font-size: 90px;
-    font-family: Arial;
 }
 .box-text{
     border: 1px solid rgb(229, 255, 0);
     height: 600px;
 }
-.box-text div {
+.left-A, .right-A {
     float: left;
-    width: 50%;
     height: 600px;
     border: 1px solid rgb(0, 255, 55);
 }
-.box-text div img {
-    max-width: 120%;
+.left-A {
+    width: calc(40% - 50px);
+    padding-right: 80px;
+    margin-right: 50px;
 }
-
+.right-A {
+    width: 60%;
+}
+.right-A img {
+    max-width: 100%;
+}
+.left-A p {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.left-A .blue-btn {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.arrow {
+    font-size: 70px;
+    margin-top: 30px;
+}
