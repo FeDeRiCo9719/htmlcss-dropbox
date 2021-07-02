@@ -61,7 +61,8 @@ header {
 .container-A {
     background-color: rgb(154, 185, 211);
 }
-/*---------------------- Container-A ----------------------*/
+
+/*---------------------- Section-A ----------------------*/
 .box-A {
     width: 80%;
     /* border: 1px solid red; */
@@ -72,7 +73,7 @@ header {
 .box-title {
     /* border: 1px solid rgb(255, 136, 0); */
     width: 100%;
-    padding: 100px 0px 60px 0px;
+    padding: 90px 0px 60px 0px;
 }
 .box-title h1 {
     font-size: 90px;
@@ -106,4 +107,33 @@ header {
 }
 .arrow {
     font-size: 70px;
+}
+
+/*---------------------- Section-B ----------------------*/
+.container-B {
+    background-color: palegreen;
+    padding-top: 250px;
+}
+.box-B {
+    background-color: orange;
+    width: 70%;
+    margin: auto;
+    height: 2000px;
+}
+
+/*---------------------- section piano business ----------------------*/
+.piano h2 {
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+.piano-right, .piano-center, .piano-left {
+    float: left;
+    width: calc(100% / 3);
+    border: 1px solid rgb(255, 255, 255);
+    height: 1200px;
+}
+.piano-bottom {
+    width: 100%;
+    height: 250px;
+    border: 1px solid rgb(255, 255, 255);
 }
