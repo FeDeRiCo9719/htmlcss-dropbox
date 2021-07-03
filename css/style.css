@@ -20,6 +20,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: white;
+    border-bottom: 1px solid lightgray;
     z-index: 10;
 }
 .container{
@@ -34,7 +35,7 @@ header {
 .left-box img {
     margin-right: 40px;
 }
-.container img, nav, li {
+.container img, nav, nav li {
     display: inline-block;
     vertical-align: middle;
     padding: 14px 0px;
@@ -111,29 +112,158 @@ header {
 
 /*---------------------- Section-B ----------------------*/
 .container-B {
-    background-color: palegreen;
+    /* background-color: palegreen; */
     padding-top: 250px;
 }
 .box-B {
-    background-color: orange;
+    border: 1px solid rgb(255, 0, 0);
     width: 70%;
     margin: auto;
-    height: 2000px;
+    height: 10000px;
+}
+.piano {
+    /* background-color: cyan; */
 }
 
 /*---------------------- section piano business ----------------------*/
-.piano h2 {
+.piano-box {
+    margin-top: 40px;
+}
+.box-B h2 {
     font-size: 45px;
     padding-bottom: 50px;
 }
 .piano-right, .piano-center, .piano-left {
     float: left;
-    width: calc(100% / 3);
-    border: 1px solid rgb(255, 255, 255);
+    width: calc(100% / 3 - 160px / 3);
+    border: 2px solid lightgrey;
     height: 1200px;
+}
+.piano-center {
+    margin: 0px 80px;
 }
 .piano-bottom {
     width: 100%;
-    height: 250px;
-    border: 1px solid rgb(255, 255, 255);
+    height: 270px;
+    border: 2px solid lightgrey;
+    margin-top: 60px;
+}
+
+/*---------------------- piano colonna contenuto ----------------------*/
+.title-plan {
+    text-align: center;
+    font-size: 20px;
+    padding: 12px 0px;
+    border-bottom: 2px solid lightgrey;
+}
+.box-interno {
+    padding: 40px 40px;
+}
+.box-button {
+    text-align: center;
+}
+.piano-btn {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+.ul-proprietà li {
+    list-style: none;
+    font-size: 18px;
+    padding: 15px 0px;
+}
+.ul-proprietà {
+    margin: 50px 0px;
+}
+.box-B h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    line-height: 35px;
+}
+.piano h4 {
+    font-size: 18px;
+    padding-bottom: 10px;   
+}
+.month {
+    font-size: 16px;
+    color: grey;
+}
+.box-B p {
+    margin: 15px 0px;
+    font-size: 18px;
+    line-height: 25px
+}
+.special-A {
+    padding: 30px 0px;
+    border-bottom: 2px solid lightgrey;    
+}
+.special-B {
+    color: rgb(0, 89, 255); 
+}
+.box-punti-salienti {
+    margin-top: 80px;
+}
+.box-punti-salienti li {
+    list-style: none;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+.check-mark {
+    color: rgb(0, 88, 252);
+    background-color: rgb(171, 241, 91);
+}
+
+/*---------------------- piano orizzontale contenuto ----------------------*/
+.bottom-col-L {
+    float: left;
+    width: 70%;
+}
+.bottom-col-R {
+    float: left;
+    width: 30%;
+}
+
+/*---------------------- section partner ----------------------*/
+.partner {
+    margin-top: 160px;
+    border: 1px solid red;
+}
+.R-partner, .L-partner {
+    float: left;
+    width: calc(50% - 20px);
+}
+.R-partner {
+    margin-left: 40px;
+}
+.L-partner img {
+    width: 100%;
+}
+.partner-btn {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 26px;
+    font-size: 16px;
+    color: black;
+    margin: 20px 0px;
+}
+
+/*---------------------- section operazioni ----------------------*/
+.operazioni {
+    margin-top: 160px;
+}
+.row-A, .row-B {
+    margin-top: 50px;
+}
+.col-L, .col-C, .col-R {
+    float: left;
+    width: calc(100% / 3 - 160px / 3);
+    /* height: 400px; */
+    border: 1px solid red;
+}
+.col-C {
+    margin: 0px 80px;
+}
+.operazioni img {
+    width: 100%;
 }
