@@ -59,7 +59,7 @@ header {
 }
 
 /*---------------------- MAIN ----------------------*/
-.container-A {
+.container-A, .back-azienda {
     background-color: rgb(154, 185, 211);
 }
 
@@ -114,10 +114,16 @@ header {
 .box-B {
     /* border: 1px solid rgb(255, 0, 0); */
     width: 60%;
-    margin: 200px auto;
+    margin: auto;
+    padding: 30px 0px;
 }
 .piano {
-    /* background-color: cyan; */
+    /* background-color: wheat; */
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.partner, .operazioni {
+    padding-bottom: 100px;
 }
 .blu-link {
     margin: 20px 0px;
@@ -144,7 +150,6 @@ header {
 }
 .piano-bottom {
     width: 100%;
-    height: 270px;
     border: 2px solid lightgrey;
     margin-top: 60px;
 }
@@ -222,10 +227,6 @@ header {
 }
 
 /*---------------------- section-partner ----------------------*/
-.partner {
-    margin-top: 160px;
-    /* border: 1px solid red; */
-}
 .R-partner, .L-partner {
     float: left;
     width: calc(50% - 20px);
@@ -246,9 +247,6 @@ header {
 }
 
 /*---------------------- section-operazioni ----------------------*/
-.operazioni {
-    margin-top: 160px;
-}
 .row-A, .row-B {
     margin: 60px 0px;
 }
@@ -268,4 +266,45 @@ header {
 /*---------------------- section-Clienti ----------------------*/
 .box-client {
     width: 55%;
+}
+
+/*---------------------- logos ----------------------*/
+.left-logos, .center-logos, .right-logos {
+    float: left;
+    width: calc(100% / 3);
+    height: 600px;
+    border: 1px solid green;
+}
+.left-logos div {
+    background-color: thistle;
+    border: 1px solid;
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+/*---------------------- nella tua azienda ----------------------*/
+.box-azienda {
+    padding: 150px 0px;
+}
+.L-azienda, .R-azienda {
+    float: left;
+    width: 50%;
+}
+.R-azienda {
+    text-align: right;
+}
+.L-azienda h2 {
+    color: rgb(100, 20, 20);
+}
+.basic-btn {
+    background-color: white;
+    padding: 10px 80px;
+    font-size: 16px;
+    margin: 20px 0px;
+    border: none;
+}
+
+/*---------------------- Domande frequenti ----------------------*/
+.box-question {
+    padding: 100px 0px;
 }
