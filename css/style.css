@@ -351,7 +351,7 @@ footer {
     /* border: 1px solid orange; */
 }
 .col-footer li {
-    color: white;
+    color: lightgrey;
     list-style: none;
     font-size: 18px;
     padding: 6px 0px;
