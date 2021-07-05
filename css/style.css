@@ -12,7 +12,7 @@
 	clear: both;
 }
 body {
-    font-family: Arial;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*---------------------- HEADER ----------------------*/
@@ -59,7 +59,7 @@ header {
 }
 
 /*---------------------- MAIN ----------------------*/
-.container-A, .background-azienda {
+.container-color, .background-azienda {
     background-color: rgb(154, 185, 211);
 }
 
@@ -78,7 +78,7 @@ header {
     padding: 90px 0px 60px 0px;
 }
 .box-title h1 {
-    font-size: 80px;
+    font-size: 75px;
 }
 .box-text{
     /* border: 1px solid rgb(229, 255, 0); */
