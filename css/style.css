@@ -59,15 +59,16 @@ header {
 }
 
 /*---------------------- MAIN ----------------------*/
-.container-A, .back-azienda {
+.container-A, .background-azienda {
     background-color: rgb(154, 185, 211);
 }
 
 /*---------------------- Section-A ----------------------*/
 .box-A {
     width: 70%;
-    /* border: 1px solid red; */
     margin: auto;
+}
+.position {
     position: relative;
     bottom: -80px;
 }
@@ -143,7 +144,7 @@ header {
     float: left;
     width: calc(100% / 3 - 160px / 3);
     border: 2px solid lightgrey;
-    height: 1200px;
+    min-height: 1200px;
 }
 .piano-center {
     margin: 0px 80px;
@@ -307,4 +308,67 @@ header {
 /*---------------------- Domande frequenti ----------------------*/
 .box-question {
     padding: 100px 0px;
+}
+.box-question hr {
+    border-top: 1px solid lightgrey;
+}
+.box-question h3 {
+    padding-bottom: 30px;
+}
+.border {
+    border-bottom: 1px solid lightgrey;
+    padding: 20px 0px;
+}
+.L-question{
+    float: left;
+    width: 95%;
+    background-color: burlywood;
+}
+.R-question {
+    float: right;
+    width: 5%;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 15px;
+}
+
+/*---------------------- footer ----------------------*/
+footer {
+    background-color: black;
+}
+.col-footer {
+    float: left;
+    width: 20%;
+    /* border: 1px solid red; */
+}
+.col-footer h4 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 24px;
+}
+.box-ul {
+    padding: 120px 0px;
+    /* border: 1px solid orange; */
+}
+.col-footer li {
+    color: white;
+    list-style: none;
+    font-size: 18px;
+    padding: 6px 0px;
+}
+footer hr {
+    border: 1px solid grey;
+    width: 8%;
+}
+
+/*---------------------- low footer ----------------------*/
+.select-box {
+    position: relative;
+    padding: 50px 0px;
+    /* border: 1px solid lightpink; */
+}
+#language {
+    background-color: black;
+    color: grey;
+    border: none;
 }
