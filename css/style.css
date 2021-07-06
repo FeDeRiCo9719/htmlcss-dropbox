@@ -264,12 +264,25 @@ header {
 }
 
 /*---------------------- logos ----------------------*/
-.left-logos, .center-logos {
-    float: left;
-    background-color: yellow;
-}
 .center-logos {
     width: calc(100% - 1200px);
+    height: 600px;
+    padding: 70px;
+    background-color: rgb(236, 236, 232);
+}
+.center-logos img {
+    width: 30%;
+    padding-bottom: 50px;
+}
+.center-logos p {
+    padding-top: 50px;
+    font-weight: 600;
+}
+.center-logos hr {
+    width: 15%;
+}
+.left-logos, .center-logos {
+    float: left;
 }
 .left-logos, .right-logos {
     width: 600px;
@@ -300,6 +313,7 @@ header {
 /*---------------------- color logo ----------------------*/
 .green {
     background-color: rgb(155, 206, 122);
+    border: 15px solid rgb(211, 230, 199);
 }
 .cyan {
     background-color: rgb(16, 145, 219);
@@ -308,19 +322,19 @@ header {
     background-color: rgb(117, 0, 39);
 }
 .red {
-    background-color: rgb(253, 51, 0);
+    background-color: rgb(255, 30, 0);
 }
 .magenta {
-    background-color: rgb(182, 0, 45);
+    background-color: rgb(224, 0, 56);
 }
 .blue {
-    background-color: rgb(24, 40, 179);
+    background-color: rgb(22, 35, 145);
 }
 .light-blue {
     background-color: rgb(154, 185, 211);
 }
 .yellow {
-    background-color: rgb(250, 205, 3);
+    background-color: rgb(231, 193, 23);
 }
 
 /*---------------------- nella tua azienda ----------------------*/
